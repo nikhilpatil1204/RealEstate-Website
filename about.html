@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="./CSS/about.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body class="body">
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg position-sticky top-0">
+        <div class="container">
+            <div class="navbar-brand" href="#">
+                <img src="./Images/Illustration/logo.png" alt="" class="logo">
+            </div>
+            <button class="navbar-toggler border border-0" type="button" data-bs-toggle="collapse"
+                data-bs-target="#one">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="one">
+                <ul class="navbar-nav gap-3">
+                    <li class="nav-item"><a class="nav-link text-light" href="home.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link text-light" href="property.html">Property</a></li>
+                    <li class="nav-item"><a class="nav-link text-light" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link text-light" href="blog.html">Blog</a></li>
+                    <li class="nav-item"><a class="nav-link text-light" href="contact.html">Contact</a></li>
+                </ul>
+                <div class="ms-auto">
+                    <span class="navbar-text call-text me-3 text-light text-decoration-underline">Call Us : +10 (78) 356
+                        3276</span>
+                    <a href="#" class="btn btn-light sign-in-btn mt-3 mt-md-0">Sign In</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- search section -->
+    <section class="search_container">
+        <div class="container mt-4">
+            <div class="search-container d-md-flex justify-content-center">
+                <div class="icon-input w-lg-25 mt-3 mt-md-0 ms-3">
+                    <input type="text" class="form-control" placeholder="Enter Keyword....">
+                </div>
+                <div class="ms-3 mt-3 mt-md-0">
+                    <select class="form-select">
+                        <option>Rent</option>
+                        <option>Rent 1</option>
+                        <option>Rent 2</option>
+                        <option>Rent 3</option>
+                        <option>Rent 4</option>
+                    </select>
+                </div>
+                <button class="btn btn-outline-secondary ms-3 mt-3 mt-md-0">
+                    <span><i class="bi bi-house-door"></i></span>
+                    <span>Bed</span>
+                </button>
+                <button class="btn btn-outline-secondary ms-3 mt-3 mt-md-0">
+                    <span></span>
+                    <span><img src="./Images/Illustration/bath-tub.png" alt="" class="img-fluid bath-img mb-1"> Bath</span>
+                </button>
+                <button class="btn btn-primary search-btn ms-3 mt-3 mt-md-0">Search</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- bg section -->
+    <section class="bg-container">
+        <div class="banner d-flex flex-column justify-content-center align-items-start text-start mt-4">
+            <div class="banner-overlay"></div>
+            <div class="banner-content ms-2 ms-md-5 text-light">
+                <h1 class="fw-bolder">About Us</h1>
+                <p>Get started by choosing from one of our pre-built page templates <br> to showcase your properties.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- browse property section -->
+    <section class="browes-property">
+        <div class="container-custom container mt-5">
+            <div class="row">
+                <div class="col-md-6 d-flex justify-content-center flex-column text-content">
+                    <h2><strong>Just browse away.</strong></h2>
+                    <h3>It's all here.</h3>
+                    <p>Rhoncus est pellen tesque elit ullam corper dignissim cras tincidunt lobortis feugiat. Et netus
+                        malesuada fames.</p>
+                    <p>Rhoncus est pellen tesque elit ullam corper dignissim cras tincidunt lobortis feugiat. Et netus
+                        malesuada fames.</p>
+                    <button class="btn btn-primary w-50">View All Property</button>
+                </div>
+                <div class="col-md-6 image-content mt-3 mt-md-0">
+                    <img src="./Images/Illustration/about1.jpg" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- property section -->
+    <section class="property-section">
+        <div class="container text-center mt-5">
+            <h2 class="fs-2">Properties for Sale</h2>
+        </div>
+        <div id="propertyCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="container mt-3">
+                    <div class="carousel-item active">
+                        <div class="row justify-content-center">
+                            <div class="col-md-4 mb-3 mb-md-0">
+                                <div class="card">
+                                    <img src="./Images/Illustration/card-img2.jpg" class="card-img-top" alt="Apartment">
+                                    <div class="card-body">
+                                        <h6 class="text-primary">$ 6728</h6>
+                                        <h5 class="card-title">Apartment</h5>
+                                        <p class="card-text">Get started by choosing from one of our pre-built page
+                                            templates to showcase your properties</p>
+                                        <div class="d-flex justify-content-between">
+                                            <span>2 Bedroom</span>
+                                            <span>2 Bathroom</span>
+                                            <span>1050 Sq Ft</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-3 mb-md-0">
+                                <div class="card">
+                                    <img src="./Images/Illustration/card-img1.jpg" class="card-img-top"
+                                        alt="Classic Home">
+                                    <div class="card-body">
+                                        <h6 class="text-primary">$ 6728</h6>
+                                        <h5 class="card-title">Classic Home</h5>
+                                        <p class="card-text">Get started by choosing from one of our pre-built page
+                                            templates to showcase your properties</p>
+                                        <div class="d-flex justify-content-between">
+                                            <span>2 Bedroom</span>
+                                            <span>2 Bathroom</span>
+                                            <span>1050 Sq Ft</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-3 mb-md-0">
+                                <div class="card">
+                                    <img src="./Images/Illustration/card-img2.jpg" class="card-img-top" alt="Apartment">
+                                    <div class="card-body">
+                                        <h6 class="text-primary">$ 6728</h6>
+                                        <h5 class="card-title">Office</h5>
+                                        <p class="card-text">Get started by choosing from one of our pre-built page
+                                            templates to showcase your properties</p>
+                                        <div class="d-flex justify-content-between">
+                                            <span>2 Bedroom</span>
+                                            <span>2 Bathroom</span>
+                                            <span>1050 Sq Ft</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="carousel-inner">
+                <div class="container mt-3">
+                    <div class="carousel-item active">
+                        <div class="row justify-content-center">
+                            <div class="col-md-4 mb-3 mb-md-0">
+                                <div class="card">
+                                    <img src="./Images/Illustration/card-img2.jpg" class="card-img-top" alt="Apartment">
+                                    <div class="card-body">
+                                        <h6 class="text-primary">$ 6728</h6>
+                                        <h5 class="card-title">Apartment</h5>
+                                        <p class="card-text">Get started by choosing from one of our pre-built page
+                                            templates to showcase your properties</p>
+                                        <div class="d-flex justify-content-between">
+                                            <span>2 Bedroom</span>
+                                            <span>2 Bathroom</span>
+                                            <span>1050 Sq Ft</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-3 mb-md-0">
+                                <div class="card">
+                                    <img src="./Images/Illustration/card-img1.jpg" class="card-img-top"
+                                        alt="Classic Home">
+                                    <div class="card-body">
+                                        <h6 class="text-primary">$ 6728</h6>
+                                        <h5 class="card-title">Classic Home</h5>
+                                        <p class="card-text">Get started by choosing from one of our pre-built page
+                                            templates to showcase your properties</p>
+                                        <div class="d-flex justify-content-between">
+                                            <span>2 Bedroom</span>
+                                            <span>2 Bathroom</span>
+                                            <span>1050 Sq Ft</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-3 mb-md-0">
+                                <div class="card">
+                                    <img src="./Images/Illustration/card-img2.jpg" class="card-img-top" alt="Apartment">
+                                    <div class="card-body">
+                                        <h6 class="text-primary">$ 6728</h6>
+                                        <h5 class="card-title">Office</h5>
+                                        <p class="card-text">Get started by choosing from one of our pre-built page
+                                            templates to showcase your properties</p>
+                                        <div class="d-flex justify-content-between">
+                                            <span>2 Bedroom</span>
+                                            <span>2 Bathroom</span>
+                                            <span>1050 Sq Ft</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#propertyCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#propertyCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+    </section>
+
+    <!-- explore property section -->
+    <section class="explore-property">
+        <div class="container-fluid property-section text-center bg-light">
+            <div class="row mt-4 ms-md-5 pt-5 pb-3 pb-md-5 pe-md-5">
+                <div class="col-md-4 text-start">
+                    <h2>Explore <br> <strong>by Property Type</strong></h2>
+                    <p>Get started by choosing from one of our pre-built page templates to showcase your properties</p>
+                    <button class="btn btn-primary">View All Property</button>
+                </div>
+                <div class="col-md-8 d-md-flex align-items-center justify-content-center mt-5 mt-md-0 bg-white">
+                    <div class="col-md-3 text-center property-card mt-3 mt-md-0 mb-2 mb-md-0">
+                        <img src="./Images/Illustration/property1.svg" alt="">
+                        <p><strong>Home & Apartment</strong></p>
+                    </div>
+                    <hr>
+                    <div class="col-md-3 text-center property-card mt-2 mb-2 mb-md-0 mt-md-0">
+                        <img src="./Images/Illustration/property2.svg" alt="">
+                        <p><strong>Villa</strong></p>
+                    </div>
+                    <hr>
+                    <div class="col-md-3 text-center property-card mt-2 mb-2 mb-md-0 mt-md-0">
+                        <img src="./Images/Illustration/property3.svg" alt="">
+                        <p><strong>Studio</strong></p>
+                    </div>
+                    <hr>
+                    <div class="col-md-3 text-center property-card mt-2 mt-md-0">
+                        <img src="./Images/Illustration/property4.svg" alt="">
+                        <p><strong>Office</strong></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- news section -->
+    <section class="news-section">
+        <div class="container-fluid">
+            <div class="row ms-4 pe-5">
+                <div
+                    class="col-md-6 newsletter-section d-flex flex-column justify-content-center text-light mt-5 mt-md-0">
+                    <h2>Subscribe Newsletter</h2>
+                    <p>Get started by choosing from one of our pre-built page templates to showcase your properties</p>
+                    <form>
+                        <div class="form-group mb-3">
+                            <input type="email" class="form-control w-md-50" placeholder="Enter your email">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Subscribe</button>
+                    </form>
+                </div>
+                <div class="col-md-6 image-section mt-5 mb-5">
+                    <img src="./Images/Illustration/subscribe-img.jpg" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row mt-5 mb-5">
+                <div class="col-md-3">
+                    <div class="logo">
+                        <img src="./Images/Illustration/logo2_footer.png" alt="" class="img-fluid">
+                    </div>
+                    <p>Duis aute irure dolor nasta reprehenderit in voluptate velit esse cillum.</p>
+                    <ul class="social-icons d-flex gap-2 p-0 m-0">
+                        <li class="list-unstyled"><a href="#" class="text-decoration-none text-secondary"><i
+                                    class="bi bi-facebook"></i></a></li>
+                        <li class="list-unstyled"><a href="#" class="text-decoration-none text-secondary"><i
+                                    class="bi bi-twitter"></i></a></li>
+                        <li class="list-unstyled"><a href="#" class="text-decoration-none text-secondary"><i
+                                    class="bi bi-instagram"></i></a></li>
+                        <li class="list-unstyled"><a href="#" class="text-decoration-none text-secondary"><i
+                                    class="bi bi-youtube"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2 mt-5 mt-md-0">
+                    <h4>Navigation</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-decoration-none text-secondary">Home</a></li>
+                        <li><a href="#" class="text-decoration-none text-secondary">About</a></li>
+                        <li><a href="#" class="text-decoration-none text-secondary">Services</a></li>
+                        <li><a href="#" class="text-decoration-none text-secondary">Blog</a></li>
+                        <li><a href="#" class="text-decoration-none text-secondary">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <h4>Services</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-decoration-none text-secondary">Drone Mapping</a></li>
+                        <li><a href="#" class="text-decoration-none text-secondary">Real State</a></li>
+                        <li><a href="#" class="text-decoration-none text-secondary">Commercial</a></li>
+                        <li><a href="#" class="text-decoration-none text-secondary">Construction</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <h4>Support</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-decoration-none text-secondary">Drone Mapping</a></li>
+                        <li><a href="#" class="text-decoration-none text-secondary">Real State</a></li>
+                        <li><a href="#" class="text-decoration-none text-secondary">Commercial</a></li>
+                        <li><a href="#" class="text-decoration-none text-secondary">Construction</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h4>Contact Us</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-decoration-none text-secondary">Drone Mapping</a></li>
+                        <li><a href="mailto:contact@konato.com" class="text-secondary">contact@konato.com</a></li>
+                        <li><a href="tel:10877383940" class="footer-num fs-4 fw-bold">10 (87) 738-3940</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div>
+            <p class="copyright text-center">Copyright &copy; 2025 All rights reserved.</p>
+        </div>
+    </footer>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

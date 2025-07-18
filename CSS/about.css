@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.body{
+    font-family: cursive;
+}
+.navbar{
+    background-color: #074090;
+    z-index: 9999;
+}
+.bath-img{
+    height: 15px;
+    width: 15px;
+}
+.banner {
+    height: 40vh;
+    background-image: url(../Images/Background/hero2-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.news-section {
+    background-color: #074090;
+}
+.footer-num{
+    color: #074090;
+}
